@@ -1,7 +1,27 @@
 html, body {
-  margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background: rgb(252, 218, 224);
 }
 canvas {
   display: block;
+  border: 12px solid  rgb(175, 139, 145);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#game-container {
+  padding: 4px;
+  text-align: center;
+}
+
+#game-caption {
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.7;
 }

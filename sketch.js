@@ -104,6 +104,7 @@ function keyPressed() {
   if(!gameStarted) {
     if (key === ' ') {
       gameStarted = true;
+      userStartAudio();
     }
   } else {
     currentScene.keyPressed();
